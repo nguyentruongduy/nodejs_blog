@@ -1,4 +1,3 @@
-
 class SiteController {
     static index(req, res) {
         res.render('home');
