@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "beautiful":"lint-staged",
+    "beautiful": "lint-staged",
     "start": "nodemon --inspect src/index.js",
     "watch": "sass --watch src/resources/scss/app.scss:src/public/css/app.css",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -37,6 +37,9 @@
   "dependencies": {
     "express": "^5.1.0",
     "express-handlebars": "^8.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.14.0",
+    "mongoose-slug-generator": "^1.0.4",
     "sass": "^1.87.0"
   },
   "devDependencies": {
